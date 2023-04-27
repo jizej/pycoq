@@ -5,8 +5,8 @@
   (universe)
   (package coq-serapi)
    ; at some point maybe we prefer (glob pycoq/*.py)
-   pycoq/__init__.py
-   pycoq/pycoq.so)
+   epycoq/__init__.py
+   epycoq/epycoq.so)
  (targets build)
  (action
   (progn
@@ -18,8 +18,8 @@
   (universe)
   (package coq-serapi)
    ; at some point maybe we prefer (glob pycoq/*.py)
-   pycoq/__init__.py
-   pycoq/pycoq.so)
+   epycoq/__init__.py
+   epycoq/epycoq.so)
  (action
   (progn
    (run python3 %{dep:setup.py} build)

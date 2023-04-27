@@ -1,4 +1,4 @@
-import pycoq, coq
+import epycoq, coq
 
 # parsing error
 opts = {"newtip": None, "ontop": None, "lim": 10 }

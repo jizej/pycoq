@@ -1,4 +1,4 @@
-import pycoq, coq
+import epycoq, coq
 
 print("==> Adding a sentence")
 opts = {"newtip": 2, "ontop": 1, "lim": 10 }

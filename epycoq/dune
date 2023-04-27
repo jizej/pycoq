@@ -1,5 +1,5 @@
 (executable
- (name pycoq)
+ (name epycoq)
  (modes (native shared_object))
  (flags :standard -linkall -rectypes)
  (libraries pythonlib coq-serapi.serapi_v8_14 coq-serapi.sertop_v8_12))

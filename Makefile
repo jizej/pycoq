@@ -1,6 +1,6 @@
 .PHONY: help build install test clean
 
-PYNAME=pycoq
+PYNAME=epycoq
 SERAPI=coq-serapi/coq-serapi.install
 
 help:
@@ -8,7 +8,7 @@ help:
 
 # coq-serapi.install is required so plugins are in place [runtime dep]
 build:
-	dune build $(SERAPI) pycoq/$(PYNAME).so
+	dune build $(SERAPI) epycoq/$(PYNAME).so
 
 install:
 	dune build @pip-install

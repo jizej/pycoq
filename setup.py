@@ -1,6 +1,6 @@
 from distutils.core import setup
 
-NAME = "pycoq"
+NAME = "epycoq"
 
 setup(
     name=NAME,
@@ -9,4 +9,4 @@ setup(
     author_email="Jonathan.laurent@cs.cmu.edu",
     description="A small example package",
     packages=[NAME],
-    package_data={NAME: ['pycoq.so']})
+    package_data={NAME: ['epycoq.so']})

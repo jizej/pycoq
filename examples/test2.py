@@ -1,4 +1,4 @@
-import pycoq, coq
+import epycoq, coq
 
 # Some common definitions we'll use
 ppopts = { "pp_format": ("PpSer",None), "pp_depth": 1000, "pp_elide": "...", "pp_margin": 90}
